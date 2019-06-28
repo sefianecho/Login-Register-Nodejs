@@ -2,7 +2,16 @@
 A simple Login/Register application developed in Nodejs using Express.
 
 # Getting started
+
+Unzip the downloaded file.
+
 ### Installing dependencies:
+Enter this command it will install all the dependencies at once:
+
+```
+npm install
+```
+Or you can install them individualy:
 
 ```
 npm install express express-session mysql pug-cli bcrypt util.promisify
