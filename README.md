@@ -31,7 +31,7 @@ Go to core/pool.js enter your database username and password, you can use you ow
 
 ### Setting up the database
 
-You can use PhpMyAdmin
+You can use PhpMyAdmin just import the database.sql file includes in the project directory
 
 Use those queries:
 
