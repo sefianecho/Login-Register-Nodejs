@@ -33,7 +33,7 @@ Go to core/pool.js enter your database username and password, you can use you ow
 
 You can use PhpMyAdmin
 
-you can use those queries:
+Use those queries:
 
 ```
 CREATE DATABASE www;
