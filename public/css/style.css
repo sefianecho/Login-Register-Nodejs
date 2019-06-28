@@ -1,0 +1,161 @@
+* {padding: 0; margin: 0;}
+
+body 
+{
+    background-color: #F0F0F0;
+}
+.table, .table td, .table tr
+{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.table
+{
+    background-color: #fff;
+}
+nav
+{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+nav ul
+{
+    list-style: none;
+}
+
+nav ul li 
+{
+    display: inline;
+}
+nav ul li a 
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #444;
+    padding: 8px 20px;
+}
+nav ul li a:hover
+{
+    background-color: #F0F0F0;
+}
+.page-wrapper
+{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.login-panel, .register-panel
+{
+    padding: 20px 20px 50px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.login-panel
+{
+    float: left;
+}
+.register-panel
+{
+    float: right;
+}
+.image, .join-us-img
+{
+    display: block;
+    margin: 0 auto;
+}
+.image
+{
+    margin-bottom: 20px;
+}
+.join-us-img
+{    
+    width: 90%;   
+}
+input[type="text"], input[type="password"]
+{
+    padding: 8px 5px;
+    margin: 0 0 5px 5px;
+    min-width: 270px;
+    font-size: 1.05em;
+    background-color: #F5F5F5;
+    border: 1px solid #ccc;
+}
+input[type="submit"]
+{
+    float: right;
+    padding: 7px 20px;
+    font-size: 1.06em;
+    background-color: #0796cf;
+    color: #fff;
+    border: 1px solid #0285b9;
+    cursor: pointer;
+    margin-top: 4px;
+}
+input[type="text"]:focus , input[type="password"]:focus {
+    background-color:#fff;
+}
+input[type="submit"]:hover
+{
+    background-color: #0fa3dd;
+    border-color: 1px solid #098ec2;
+}
+.error
+{
+    background-color: rgb(248, 203, 203);
+    border: 1px solid rgb(245, 87, 87);
+    color: rgb(245, 49, 49);
+    padding: 10px 15px;
+}
+
+.dashboard
+{
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.user-post-area
+{
+    padding: 20px 0;
+}
+form
+{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+textarea
+{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    padding: 10px;
+    resize: vertical;   
+}
+
+.post 
+{
+    padding: 20px;
+    border: 1px solid #bbb;
+    color: #888;
+    margin-bottom: 5px;
+}
+p 
+{
+    padding: 10px;
+}
+.greeting
+{
+    color: #222;
+    background-color: rgb(245, 255, 245);
+    border: 1px solid rgb(210, 231, 210);
+    padding: 1em;
+}
+.greeting span
+{
+    color: rgb(112, 172, 16);
+}
