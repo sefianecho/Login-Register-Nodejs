@@ -25,7 +25,7 @@
   "homepage": "https://github.com/sefianecho/Login-Register-Nodejs#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.1",
     "mysql": "^2.18.1",
     "pug": "^3.0.0",
